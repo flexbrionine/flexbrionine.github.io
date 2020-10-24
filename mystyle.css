@@ -4,7 +4,7 @@ body {
 p {
 	color: gainsboro;
 	font-size: 24px;
-	
+  filter: blur(8px);
 }
 
 h1 {
@@ -12,11 +12,4 @@ h1 {
   color: gainsboro;
   margin-left: 20px;
 }
-#circle {
-    width: 120px;
-    height: 120px;
-    background: #7fee1d;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
-    border-radius: 60px;
-}
+
