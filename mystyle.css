@@ -1,8 +1,19 @@
 body {
   background-color: #2E2E2E;
+  filter: blur(1px);
+}
+p {
+	color: gainsboro;
 }
 
 h1 {
   color: gainsboro;
   margin-left: 20px;
+}
+
+#rectangle {
+    width: 500px;
+    height: 120px;
+    background: #111111;
+	filter: blur(4px);
 }
